@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <title>Smart ATM social preview</title>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1b2d"/>
+      <stop offset="1" stop-color="#16324f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="640" fill="url(#bg)"/>
+
+  <!-- ATM illustration -->
+  <g transform="translate(860,140)">
+    <rect x="0" y="0" width="260" height="360" rx="18" fill="#2c3e57"/>
+    <rect x="30" y="36" width="200" height="130" rx="8" fill="#7cc4ff"/>
+    <rect x="58" y="62" width="144" height="78" rx="4" fill="none" stroke="#2e9e44" stroke-width="6"/>
+    <text x="130" y="110" text-anchor="middle" fill="#0f1b2d" font-size="22" font-weight="700">GRANTED</text>
+    <rect x="60" y="196" width="140" height="80" rx="6" fill="#1d2b3e"/>
+    <g fill="#53688a">
+      <rect x="74" y="208" width="30" height="16" rx="3"/><rect x="115" y="208" width="30" height="16" rx="3"/><rect x="156" y="208" width="30" height="16" rx="3"/>
+      <rect x="74" y="230" width="30" height="16" rx="3"/><rect x="115" y="230" width="30" height="16" rx="3"/><rect x="156" y="230" width="30" height="16" rx="3"/>
+      <rect x="74" y="252" width="30" height="16" rx="3"/><rect x="115" y="252" width="30" height="16" rx="3"/><rect x="156" y="252" width="30" height="16" rx="3"/>
+    </g>
+    <rect x="70" y="300" width="120" height="14" rx="5" fill="#0b131f"/>
+    <!-- camera -->
+    <circle cx="130" cy="-24" r="16" fill="#c9d4e3"/><circle cx="130" cy="-24" r="7" fill="#0f1b2d"/>
+    <path d="M130 -8 V0" stroke="#c9d4e3" stroke-width="5"/>
+  </g>
+
+  <text x="90" y="230" fill="#ffffff" font-size="84" font-weight="800">Smart ATM</text>
+  <text x="92" y="292" fill="#9fc6ef" font-size="32" font-weight="500">Face-occlusion access control</text>
+  <text x="92" y="336" fill="#9fc6ef" font-size="32" font-weight="500">and tamper alarm for ATM booths</text>
+
+  <g font-size="22" font-weight="600" fill="#ffffff">
+    <rect x="90" y="390" width="150" height="44" rx="22" fill="#ff6f00"/><text x="165" y="419" text-anchor="middle">TensorFlow</text>
+    <rect x="252" y="390" width="120" height="44" rx="22" fill="#5c3ee8"/><text x="312" y="419" text-anchor="middle">OpenCV</text>
+    <rect x="384" y="390" width="166" height="44" rx="22" fill="#2e7d32"/><text x="467" y="419" text-anchor="middle">MobileNetV2</text>
+    <rect x="562" y="390" width="110" height="44" rx="22" fill="#3776ab"/><text x="617" y="419" text-anchor="middle">Python</text>
+  </g>
+
+  <text x="92" y="540" fill="#d6e4f5" font-size="24">Jay Kumar Tamang · github.com/jkthokar/smart-atm</text>
+</svg>

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Data: face images are personal data, so do not commit them
+dataset/raw/
+dataset/train/
+dataset/test/
+
+# Model files (large). Share trained models through GitHub Releases instead.
+models/*
+!models/.gitkeep
+
+# Local settings
+roi.json
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

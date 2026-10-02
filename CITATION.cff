@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Smart ATM: Face-Occlusion Access Control and Tamper Alarm"
+authors:
+  - family-names: Tamang
+    given-names: Jay Kumar
+    affiliation: "Kyungdong University (Global)"
+version: 2.0.0
+license: MIT
+repository-code: "https://github.com/jkthokar/smart-atm"
+keywords:
+  - computer vision
+  - deep learning
+  - face mask detection
+  - ATM security
